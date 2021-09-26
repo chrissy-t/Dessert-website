@@ -3,7 +3,11 @@
 body{
   font-family: 'Montserrat','Roboto', sans-serif;
 width: 90%;
-margin: 0 auto;}
+margin: 0 auto;
+background-image: url("images/background.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+}
 
 h1{
   text-align: center;
