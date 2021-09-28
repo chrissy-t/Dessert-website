@@ -4,9 +4,14 @@ body{
   font-family: 'Montserrat','Roboto', sans-serif;
 width: 90%;
 margin: 0 auto;
-background-image: url("images/blondie3.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+line-height: 2em;
+background-color: #ffffff;
+}
+img.align-center{
+  display: block;
+  width: 600px;
+  height: 250px;
+  margin: 0px auto;
 
 }
 
@@ -15,7 +20,11 @@ h1{
   font-size: 3em;
 }
 
-#blondie {overflow: auto;}
+h4{
+  text-align: center;
+  text-decoration: underline;
+}
+
 
 #nav, #feature, #footer {
 margin: 5%;}
@@ -26,6 +35,7 @@ width: 31.3%;
 -webkit-box-shadow: 5px 5px 5px #777777;
 box-shadow: 5px 5px 5px #777777;
 border-radius: 10px;
+background-color: #f6ffc2;
 
 float: left;
 margin: 1%;
@@ -33,17 +43,17 @@ margin: 1%;
 }
 .preperation{
   border-style: dotted;
-  cursor: url("images/opened-scissors.png");
+
+
 }
 .nutrition {margin-right: 0%;}
 
 
 
 #nav, #footer {
-background-color: #efefef;
+background-color:
 padding: 0.5em 0;}
 
 #feature, .dessert {
 height: auto;
 margin-bottom: 1em;
-background-color: #efefef;}
