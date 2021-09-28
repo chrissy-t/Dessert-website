@@ -12,8 +12,6 @@ img.align-center{
   width: 600px;
   height: 250px;
   margin: 0px auto;
-  -moz-box-shadow: 5px 5px 5px #777777;
-  -webkit-box-shadow: 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
   border-radius: 5px;
 
@@ -32,24 +30,34 @@ h4{
 
 
 
-.ingredients, .preperation, .nutrition {
-width: 31.3%;
--moz-box-shadow: 5px 5px 5px #777777;
--webkit-box-shadow: 5px 5px 5px #777777;
+.ingredients{
+width: 30%;
 box-shadow: 5px 5px 5px #777777;
 border-radius: 10px;
 background-color: #f6ffc2;
-
 float: left;
 margin: 1%;
 
 }
 .preperation{
+  float: left;
+  margin: 3%;
   border-style: dotted;
+  overflow: scroll;
+  width: 30%;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 10px;
+  background-color: #f6ffc2;
 
 
 }
-.nutrition {margin-right: 0%;}
+.nutrition {
+  float:left;
+  width: 30%;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 10px;
+  background-color: #f6ffc2;
+}
 
 
 }
@@ -59,6 +67,11 @@ height: auto;
 margin-bottom: 1em;
 }
 
+ol,ul{
+  padding: 0;
+  height: 360px;
+  width: 300px;
+}
 #form{
   font-weight: bold;
   padding: 6px 12px 6px 12px;
