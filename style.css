@@ -22,9 +22,19 @@ margin: 5%;}
 
 .ingredients, .preperation, .nutrition {
 width: 31.3%;
-float: left;
-margin: 1%;}
+-moz-box-shadow: 5px 5px 5px #777777;
+-webkit-box-shadow: 5px 5px 5px #777777;
+box-shadow: 5px 5px 5px #777777;
+border-radius: 10px;
 
+float: left;
+margin: 1%;
+
+}
+.preperation{
+  border-style: dotted;
+  cursor: url("images/opened-scissors.png");
+}
 .nutrition {margin-right: 0%;}
 
 
