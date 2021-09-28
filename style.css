@@ -12,6 +12,10 @@ img.align-center{
   width: 600px;
   height: 250px;
   margin: 0px auto;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 5px;
 
 }
 
