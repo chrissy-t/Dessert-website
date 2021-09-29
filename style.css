@@ -8,18 +8,25 @@ margin: 0 auto;
 line-height: 2em;
 background-color: #ffffff;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#logo{
-
-  width: 300px;
+a.logo{
   height: 300px;
+  width: 400px;
+  text-indent: -9999px;
+  display: inline-block;
+  background-image: url("images/sprite.jpg") ;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
 }
+
+
+a:hover{
+  background-position: 0px -250px;
+
+}
+
 
 img.align-center{
   display: block;
