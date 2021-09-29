@@ -15,10 +15,7 @@ a.logo{
   display: inline-block;
   background-image: url("images/sprite.jpg") ;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
+  
 }
 
 
