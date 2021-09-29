@@ -8,10 +8,22 @@ margin: 0 auto;
 line-height: 2em;
 background-color: #ffffff;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#logo{
+
+  width: 300px;
+  height: 300px;
+}
+
 img.align-center{
   display: block;
   width: 600px;
-  height: 250px;
+  height: 300px;
   margin: 0px auto;
   box-shadow: 5px 5px 5px #777777;
   border-radius: 5px;
