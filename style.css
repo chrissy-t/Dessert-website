@@ -8,6 +8,13 @@ margin: 0 auto;
 line-height: 2em;
 background-color: #ffffff;
 }
+
+#header{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
 a.logo{
   height: 300px;
   width: 400px;
@@ -15,7 +22,7 @@ a.logo{
   display: inline-block;
   background-image: url("images/sprite.jpg") ;
   background-repeat: no-repeat;
-  
+
 }
 
 
