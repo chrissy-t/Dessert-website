@@ -63,6 +63,7 @@ width: 30%;
 box-shadow: 5px 5px 5px #777777;
 border-radius: 10px;
 background-color: #f6ffc2;
+border-style: dotted;
 float: left;
 margin: 1%;
 
@@ -70,7 +71,6 @@ margin: 1%;
 .preperation{
   float: left;
   margin: 3%;
-  border-style: dotted;
   overflow: scroll;
   width: 30%;
   box-shadow: 5px 5px 5px #777777;
